@@ -19,8 +19,16 @@ prime = [2,3,5,7]
 
 "While"
 #Print out 0,1,2,3,4
-count = 0
+#count = 0
 
-while count < 5:
+#while count < 5:
+	#print(count)
+	#count += 1
+
+count = 0
+while True :
 	print(count)
 	count += 1
+	if count >= 5:
+		
+		break
