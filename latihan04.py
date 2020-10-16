@@ -47,7 +47,7 @@ print(Jiwa is Kulo)
 #The "not" operator
 
 print(not False) # Prints out True
-print((not false)) == ((False)) # print out False
+print((not False)) == ((False)) # Print out False
  
 
 
