@@ -1,0 +1,28 @@
+# function
+def helloWorld(name):
+	print(f"Hello, {name}")
+	
+
+def secondFunc():
+	name = 'Luke Skywalker'
+	return helloWorld(name)
+	
+
+# print bilangan negative
+def printNegative(index, lenght):
+	if index == "" and lenght == "":
+		return
+		
+	while index < lenght:
+		if index % 2 == 1:
+			print(index)
+		index += 1
+	
+	
+# call method
+helloWorld('John Doe')
+
+secondFunc()
+
+printNegative(0,79)
+	
