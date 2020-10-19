@@ -1,9 +1,22 @@
 # latihan function
-def bilangan3(parameter):
-	for bilangan in range(parameter):
-		if bilangan % 3 ==0:
-			if bilangan ==0:
-				continue
-			print(bilangan)
+#def bilangan3(parameter):
+	#for bilangan in range(parameter):
+		#if bilangan % 3 ==0:
+			#if bilangan ==0:
+				#continue
+			#print(bilangan)
 			
-bilangan3(100)
+#bilangan3(100)
+
+def bilangan3(param):
+	if param == "" or param < 3:
+		return
+		
+	for bil in range(param):
+		if bil == 0:
+			continue
+			
+		if bil % 3 == 0:
+			print(bil)
+			
+bilangan3(0)
