@@ -1,0 +1,9 @@
+# latihan function
+def bilangan3(parameter):
+	for bilangan in range(parameter):
+		if bilangan % 3 ==0:
+			if bilangan ==0:
+				continue
+			print(bilangan)
+			
+bilangan3(100)
