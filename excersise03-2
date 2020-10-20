@@ -8,15 +8,29 @@
 			
 #bilangan3(100)
 
-def bilangan3(param):
-	if param == "" or param < 3:
-		return
+#def bilangan3(param = None):
+	#if param == None or param < 3:
+		#return
 		
-	for bil in range(param):
-		if bil == 0:
-			continue
+	#for bil in range(param):
+		#if bil == 0:
+			#continue
 			
-		if bil % 3 == 0:
-			print(bil)
+		#if bil % 3 == 0:
+			#print(bil)
 			
-bilangan3(0)
+#bilangan3(90)
+
+#using "while"
+def bilangan3(param):
+	if param == None or param < 3:
+		return
+	
+	index = 1
+	while index < param:
+		if index % 3 == 0:
+			print(index)
+			
+		index += 1
+		
+bilangan3(25)

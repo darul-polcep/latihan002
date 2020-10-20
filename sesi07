@@ -1,0 +1,27 @@
+#def someone(nama,umur,hobi):
+#	print("Nama Saya %s, Umur Saya %d, Hobi Saya %s" % (nama, umur, hobi))
+	
+#someone("Darul", 23, "Basketball")
+
+#def bilangan(angka):
+#	for x in range(angka):
+	
+#		if x % 2 == 0:
+#			print(x)
+
+#bilangan(20)
+
+#Latihan Classes
+class Siswa:
+	nama = "Darul Ihsan"
+	umur = 23
+	
+	def alamat(self, almt):
+		return almt
+		
+
+#instansi
+objectSiswa = Siswa()
+
+print(objectSiswa.nama)
+print(objectSiswa.alamat('Jl. Cigadung'))
