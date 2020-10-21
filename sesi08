@@ -1,0 +1,16 @@
+class ComplexNumber:
+
+	glbl = 'Hello'
+
+	# class constructor
+	def __init__ (self, r=0, i=0):
+		self.real = r
+		self.img = i
+		
+	def get_data(self):
+		print(f'{self.real} + {self.img}')
+		
+num1 = ComplexNumber(15,20)
+
+num1.get_data()
+	
